@@ -1,9 +1,8 @@
 import os 
 import csv
 
-input_path = os.path.join("..", "Main_poll", "Resources", "election_data.csv")
-output_path = os.path.join("..", "Main_Poll", "Analysis", "election_results.txt")
-
+input_path = os.path.join("..", "pypoll", "Resources", "election_data.csv")
+output_path = os.path.join("..", "pypoll", "Analysis", "election_results.txt")
 print("Election Results")
 print("-----------------------")
 
